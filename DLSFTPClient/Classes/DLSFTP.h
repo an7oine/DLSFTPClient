@@ -33,9 +33,9 @@
 #include <fcntl.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
-#include "libssh2.h"
-#include "libssh2_config.h"
-#include "libssh2_sftp.h"
+#include "../Libraries/include/libssh2/libssh2.h"
+#include "../Libraries/include/libssh2/libssh2_config.h"
+#include "../Libraries/include/libssh2/libssh2_sftp.h"
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= 60000
 #define NEEDS_DISPATCH_RETAIN_RELEASE 0
